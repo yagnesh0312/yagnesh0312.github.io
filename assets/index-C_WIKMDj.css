@@ -372,7 +372,7 @@ a {
 .icon {
   height: 50px;
   width: 50px;
-  background-image: url(assets/white-arrow-png-41954.png);
+  background-image: url(/assets/white-arrow-png-41954.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
