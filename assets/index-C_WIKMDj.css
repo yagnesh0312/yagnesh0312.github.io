@@ -8,7 +8,8 @@
   --button-color: #252525;
   --white-light-color: #ffffffbb;
   --mid-color: #04040471;
-  --dark-background-url: url(/assets/background.png);
+  --dark-background-url: url(/assets/background-DugoOkO7.png);
+  --light-background-url: url(/assets/ligh-background-G2ugqIwQ.png);
 }
 .switch {
   margin: 0 10px;
@@ -26,7 +27,7 @@
   margin: 0;
   color: var(--white-color);
   box-sizing: border-box;
-  font-family: "Jost", sans-serif;
+  font-family: "Jost";
 }
 body {
   background-color: var(--dark-color);
@@ -104,7 +105,7 @@ a {
 }
 .main {
   text-align: center;
-  background-image: url(/assets/background-DugoOkO7.png);
+  background-image: var(--dark-background-url);
   background-attachment: fixed;
   background-size: cover;
   padding-top: 100px;
@@ -148,7 +149,7 @@ a {
   );
   filter: drop-shadow(0px 0px 10px var(--primary-light-color))
     drop-shadow(0px 0px 10px var(--secondary-light-color));
-  font-family: "Jost", sans-serif;
+  font-family: "Jost";
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -472,7 +473,7 @@ a {
     margin: 20px 50px;
     font-size: 10px;
     font-weight: 200;
-    font-family: "Jost", sans-serif;
+    font-family: "Jost";
   }
   .profile {
     width: 60%;
